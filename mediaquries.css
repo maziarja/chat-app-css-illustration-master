@@ -1,0 +1,78 @@
+@media (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 60em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+@media (max-width: 60em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+@media (max-width: 49.5em) {
+  html {
+    font-size: 31.25%;
+  }
+
+  .dogs img {
+    width: 25px;
+  }
+}
+@media (max-width: 35.5em) {
+  html {
+    font-size: 25%;
+  }
+}
+@media (max-width: 29em) {
+  html {
+    font-size: 62.5%;
+  }
+  .white-section {
+    max-width: 46.4rem;
+  }
+  .curv-left {
+    height: 45rem;
+    width: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 20rem;
+    top: 0;
+    left: 0;
+    transform: translateX(-50%);
+  }
+  .curv-right {
+    display: none;
+  }
+  .phone-section {
+    transform: scale(90%);
+    top: 7%;
+    left: 72%;
+  }
+
+  .text-section {
+    width: 80%;
+    top: 57rem;
+    right: auto;
+    transform: translate(10.5%, 0%);
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+  .attribution {
+    display: none;
+  }
+}
+
+@media (max-width: 23.43em) {
+  .white-section {
+    max-width: 37.5rem;
+  }
+  .curv-left {
+    transform: translateX(-53%);
+  }
+  .phone-section {
+    left: 68%;
+  }
+}
